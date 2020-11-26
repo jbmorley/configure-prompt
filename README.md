@@ -2,8 +2,6 @@
 
 Minimal prompt for Zsh
 
-## Screenshot
-
 ![Screenshot of terminal using configure-prompt](terminal.png)
 
 ## Features
