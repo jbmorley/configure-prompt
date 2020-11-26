@@ -1,1 +1,1 @@
-# zsh-prompt
+# configure-prompt
