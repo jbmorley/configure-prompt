@@ -16,3 +16,5 @@
    autoload configure-prompt
    configure-prompt
    ```
+
+N.B. The above instructions assume you want to clone the project to `~/Projects/configure-prompt`, which is where I like to keep all my projects and git checkouts. Feel free to change this path if you'd like to place it somewhere else.
