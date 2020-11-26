@@ -1,6 +1,6 @@
 # configure-prompt
 
-Minimal prompt for Zsh
+Minimal prompt for Zsh.
 
 ![Screenshot of terminal using configure-prompt](terminal.png)
 
