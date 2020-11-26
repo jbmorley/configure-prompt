@@ -16,5 +16,11 @@
    autoload configure-prompt
    configure-prompt
    ```
+   
+   You can optionally provide a custom machine name by specifying it as the first argument to `configure-prompt`:
+   
+   ```zsh
+   configure-prompt "The Comedian"
+   ```
 
 The above instructions assume you want to clone the project to `~/Projects/configure-prompt`, which is where I like to keep all my projects and git checkouts. Feel free to change this path if you'd like to place it somewhere else.
