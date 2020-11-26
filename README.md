@@ -1,5 +1,7 @@
 # configure-prompt
 
+![Screenshot of terminal using configure-prompt](terminal.png)
+
 ## Usage
 
 1. Clone the repository:
