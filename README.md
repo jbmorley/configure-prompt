@@ -17,6 +17,7 @@ Minimal prompt for Zsh
 
    ```zsh
    mkdir -p ~/Projects
+   cd ~/Projects
    git clone git@github.com:jbmorley/configure-prompt.git
    ```
 
