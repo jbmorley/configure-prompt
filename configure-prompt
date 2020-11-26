@@ -3,5 +3,12 @@ precmd_functions+=( vcs_info )
 zstyle ':vcs_info:git:*' formats '%F{magenta}%b%f '
 zstyle ':vcs_info:*' enable git
 setopt prompt_subst
+
 PROMPT="%n %1~ \$vcs_info_msg_0_%# "
-RPROMPT="%F{250}%m %D{%H:%M:%S %Z}%f"
+
+if (( ${+1} ))
+then
+    RPROMPT="%F{250}$1 %D{%H:%M:%S %Z}%f"
+else
+    RPROMPT="%F{250}%m %D{%H:%M:%S %Z}%f"
+fi
