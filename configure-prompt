@@ -1,0 +1,7 @@
+autoload -Uz vcs_info
+precmd_functions+=( vcs_info )
+zstyle ':vcs_info:git:*' formats '%F{magenta}%b%f '
+zstyle ':vcs_info:*' enable git
+setopt prompt_subst
+PROMPT="%n@%m %1~ \$vcs_info_msg_0_%# "
+RPROMPT="%F{250}%m %D{%H:%M:%S %Z}%f"
