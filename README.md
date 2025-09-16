@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> 
+> This project has been archived and will not be maintained or developed further.
+>
+> There exist many more comprehensive alternatives to Zsh customization such as [Oh My Zsh](https://ohmyz.sh), and better mechanisms for sharing configurations between systems such as [chezmoi](https://www.chezmoi.io).
+
 # configure-prompt
 
 Minimal prompt for Zsh
